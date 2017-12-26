@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">V-Alumnus</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="menu_settings">Settings</string>
+    <string name="home">Home</string>
+    <string name="events">Events</string>
+    <string name="contact">Contact</string>
+    <string name="discussion">Discussion</string>
+    <string name="birthday">BirthDays</string>
+    <string name="vector">Vector</string>
+    <string name="login">Login</string>
+    <string name="Success_Stories">Success Stories</string>
+    <string name="Gallery">Gallery</string>
+    <string name="first_fragment">Home</string>
+    <string name="second_fragment">Second Fragment</string>
+    <string name="third_fragment">Third Fragment</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Login</string>
+    <string name="title_activity_vector">VectorActivity</string>
+    <string name="title_activity_event">event</string>
+    <string name="title_activity_birthday">birthday</string>
+    <string name="title_activity_about_us">About_us</string>
+    <string name="title_activity_contact_us">Contact_us</string>
+    <string name="title_activity_help">Help</string>
+        <string name="about">V-KronuS is a (Free-Lancing)Team of Programmers, collaborating Together to work on Various Projects.
+\n\n
+We do all types of projects including :\n
+* Developing Websites\n
+* Android Applications\n
+* Frameworks\n
+* Robotics\n
+* System based applications\n
+* Client server application\n\n</string>
+    <string name="contact_us">
+    Contact us-\n
+    https://www.facebook.com/VKronuS\n\n\
+   </string>
+    <string name="about_us">
+        Members\n
+Sagar Bankar -sagar111smailbox@gmail.com\n\n
+Zaid Shaikh -zaidshaikh1049@gmail.com\n\n
+Pranesh Dharia -praneshdharia@gmail.com\n\n
+Aliasgar Lokhandwala-aliasgar2493@gmail.com\n\n
+Rohit Jain-rohit.jain058@gmail.com\n\n
+Akshay Gondke-akshaygondke@gmail.com\n\n
+Suraj Phalake-phalakesuraj@gmail.com</string>
+
+        <string name="help">
+        Q: Who can use the V-Alumni App?\n
+
+A: The V-Alumni can access this app. Information is secure and protected, and only the Vidyalankar community may access it.\n
+
+Q: Which devices support the app?\n
+
+A: The  V-Alumni App is currently available for Android devices. We support Android 2.3 and above versions.\n
+
+Q: How do I get the V-Alumni App on my mobile device?\n
+
+A: Search for "V-Alumni" in the Google Play Store. Once you have downloaded the app and opened it, you will be prompted to login.\n
+
+Q: Can I email  another alum directly from the app?\n
+
+A: Yes.You can contact the faculty via emails.\n
+    </string>
+    <string name="title_activity_directory">Directory</string>
+    <string name="title_activity_news_details">NewsDetails</string>
+    <string name="title_activity_discussion">Discussion</string>
+    <string name="title_activity_new_thread">NewThread</string>
+    <string name="title_activity_thread_read">ThreadRead</string>
+    <string name="title_activity_gallery">Gallery</string>
+    <string name="title_activity_gallery_image">GalleryImage</string>
+    <string name="title_activity_alumni">Alumni</string>
+    <string name="title_activity_faculty">Faculty</string>
+    <string name="title_activity_facultyreg">facultyreg</string>
+    <string name="title_activity_alumni_update">AlumniUpdate</string>
+    <string name="title_activity_change_picture">ChangePicture</string>
+    <string name="title_activity_home_splash">homeSplash</string>
+    <string name="title_activity_friend_list">FriendList</string>
+    <string name="title_activity_friend_request">FriendRequest</string>
+    <string name="title_activity_event_info">EventInfo</string>
+    <string name="title_activity_alumni_profile">AlumniProfile</string>
+
+</resources>

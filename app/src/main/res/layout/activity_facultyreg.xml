@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="v_alumnus.vkronus.edu.v_alumnus.facultyreg">
+    <ScrollView android:id="@+id/login_form1" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="false"
+
+        android:visibility="visible"
+        >
+
+        <LinearLayout android:id="@+id/fac_form" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:orientation="vertical"
+
+           >
+        <TextView
+            android:id="@+id/almyr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Section"
+            android:textSize="20dp"
+            android:textColor="#000"
+
+            />
+        <Spinner
+            android:id="@+id/fac_div"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:padding="5dp"
+            android:background="#fff"></Spinner>
+        <TextView
+            android:id="@+id/almbrnch"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Name"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:textColor="#000"/>
+        <Spinner
+            android:padding="5dp"
+            android:id="@+id/fac_name"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#fff"
+            ></Spinner>
+        <TextView
+            android:id="@+id/almdiv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Unique Code"
+            android:textSize="20dp"
+            android:textColor="#000"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:hint="UniqueCode"
+                android:id="@+id/unique"
+                android:textColor="#000"
+                android:textColorHint="#D0CFD0"
+
+                />
+            <Button android:id="@+id/facsubmit" style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+               android:background="#000"
+                android:textColor="#fff"
+                android:layout_height="wrap_content"
+                android:padding="5dp" android:text="Submit"
+                android:textStyle="bold" />
+
+</LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

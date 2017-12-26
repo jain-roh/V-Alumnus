@@ -1,0 +1,129 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e4d9d9"
+    tools:context="v_alumnus.vkronus.edu.v_alumnus.Alumni">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:id="@+id/actnbr"
+    android:layout_alignParentTop="true"
+    android:orientation="horizontal"
+    android:weightSum="1"
+    android:background="#6779fa"
+
+    >
+    <v_alumnus.vkronus.edu.v_alumnus.CircleImageView
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:id="@+id/dpimg"
+        android:background="#6779fa"
+        android:padding="2dp"
+        android:layout_weight="0.2"
+
+        />
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="0.5"
+        android:textColor="#fcfafa"
+        android:background="#3c53ff"
+
+        android:text="Akshay"
+        android:id="@+id/frndnm"
+        />
+    <Button
+        android:layout_width="0dp"
+        android:minHeight="60dp"
+        android:layout_height="60dp"
+        android:layout_weight="0.3"
+        android:textColor="#fcfafa"
+        android:background="#6779fa"
+
+        android:text="Loading"
+        android:id="@+id/frndreq"
+        />
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_send_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        android:paddingLeft="5dp"
+        android:paddingBottom="10dp"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/editMessage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:maxHeight="30dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="7"
+            android:gravity="top|left"
+            android:inputType="textMultiLine|textCapSentences"
+            android:maxLines="5"
+            android:hint="Type a message"
+            android:textColorHint="#c7c6c6"
+            android:minLines="1"
+            android:ems="10"
+            android:padding="5dp"
+            android:background="#fcfafa"
+            android:scrollHorizontally="false"
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/buttonSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:background="@drawable/button_send"
+            android:gravity="center"
+
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+
+
+    <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="fill_parent"
+      android:layout_below="@id/actnbr"
+      android:layout_above="@id/ll_send_message"
+      >
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          >
+
+             <!-- <Button
+                  android:layout_width="50dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1"
+                  android:textColor="#121111"
+                  android:background="#bab1b1"
+                  android:alpha="0.50"
+
+                  android:text="Message"
+                  />-->
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:id="@+id/chats"
+                  >
+
+
+              </LinearLayout>
+
+
+      </LinearLayout>
+  </ScrollView>
+
+
+
+</RelativeLayout>

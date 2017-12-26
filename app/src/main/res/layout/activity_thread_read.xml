@@ -1,0 +1,151 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="v_alumnus.vkronus.edu.v_alumnus.ThreadRead">
+
+
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp"
+    >
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="5dp"
+    android:id="@+id/thradd"
+    android:weightSum="1"
+    >
+    <Button android:id="@+id/date" style="?android:textAppearanceSmall"
+        android:layout_width="100dp"
+        android:layout_weight=".50"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#fff"
+        android:background="#ff606663"
+        android:enabled="false"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+    <Button android:id="@+id/almfac" style="?android:textAppearanceSmall"
+        android:layout_width="100dp"
+        android:textSize="12dp"
+        android:layout_weight=".50"
+        android:layout_height="wrap_content"
+        android:background="#ffcd9516"
+        android:textColor="#fff"
+        android:text="" />
+
+</LinearLayout>
+
+    <TextView android:text="" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffcadbef"
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        android:padding="3dp"
+        android:id="@+id/titlehead"
+
+        />
+    <TextView android:text="" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffa9bace"
+        android:textColor="#000"
+        android:textSize="16dp"
+        android:padding="3dp"
+        android:id="@+id/titledesc"
+        />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:id="@+id/cmnt"
+        >
+
+    </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:id="@+id/nxt10"
+                >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffff050f"
+                android:visibility="gone"
+                android:text="More.."
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:id="@+id/next10"
+                />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    /> <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/cmt"
+        android:weightSum="1"
+        >
+        <Button android:id="@+id/like" style="?android:textAppearanceSmall"
+            android:layout_width="100dp"
+            android:layout_weight=".30"
+            android:layout_height="wrap_content"
+            android:text="LIKE"
+            android:textColor="#fff"
+            android:background="#ff087701"
+            android:enabled="false"
+            android:textStyle="bold" />
+        <Button android:id="@+id/Views" style="?android:textAppearanceSmall"
+            android:layout_width="100dp"
+            android:layout_weight=".30"
+            android:layout_height="wrap_content"
+            android:background="#ffcd0009"
+            android:textColor="#fff"
+            android:enabled="false"
+            android:text=""
+            android:textStyle="bold" />
+
+        <Button android:id="@+id/comnt" style="?android:textAppearanceSmall"
+            android:layout_width="100dp"
+            android:layout_weight=".40"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"
+            android:background="#ff171f77"
+            android:text="Comment"
+            android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>

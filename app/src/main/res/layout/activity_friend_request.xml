@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    tools:context="v_alumnus.vkronus.edu.v_alumnus.util.FriendRequest"
+    android:background="#ffd2d2d2"
+    >
+
+
+    <FrameLayout
+        android:id="@+id/mainfr"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:paddingLeft="1dp"
+        android:paddingRight="1dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="5dp"
+        >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/scrollView2fr">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/moren"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/headingfr"
+                    >
+                    <!--<ListView
+                            android:layout_width="fill_parent"
+                            android:layout_height="100dp"
+                            android:layout_weight="1"
+                            android:id="@+id/listView1"
+                            android:background="#ffffff"
+                            android:scrollbarSize="3dp"
+                            android:choiceMode="singleChoice"
+                            android:scrollbars="vertical"
+                            android:scrollingCache="true"
+                            android:smoothScrollbar="true"
+
+
+                        />
+                -->
+
+                    <!--     <TextView
+                             android:id="@+id/newshead"
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:text=""
+                             android:visibility="gone"
+                             android:textSize="25dp"
+                             android:textStyle="bold|italic"
+                             android:textColor="#ffffff"/>
+
+                             <TextView
+                                 android:layout_width="match_parent"
+                                 android:layout_height="10dp" />
+
+                         <TextView
+                             android:id="@+id/newsdet"
+                             android:visibility="gone"
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:text=""
+                             android:textSize="15dp"
+                             android:textColor="#ffffff"/>-->
+                </LinearLayout>
+                <LinearLayout android:id="@+id/email_login_form2fr" android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:orientation="horizontal"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="1dp"
+                    android:paddingBottom="5dp"
+                    android:paddingRight="1dp"
+                    android:weightSum="1">
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+
+
+
+
+
+
+</LinearLayout>

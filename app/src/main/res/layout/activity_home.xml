@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgradient"
+
+    tools:context=".homeActivity"
+
+    >
+  <LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:weightSum="1"
+      android:paddingLeft="70dp"
+      android:paddingRight="70dp"
+
+      android:orientation="horizontal"
+        android:paddingTop="100dp"
+      android:layout_alignParentTop="true"
+      android:id="@+id/linearLayout">
+
+    <Button android:id="@+id/login" style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffff5b74"
+        android:textColor="#ffffff"
+        android:padding="10dp"
+      android:layout_weight="0.80"
+        android:text="@string/login"
+        android:textStyle="bold"
+        android:layout_above="@+id/linearLayout"
+        android:layout_centerHorizontal="true" />
+  </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+android:paddingTop="30dp"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:id="@+id/linearLayout1">
+
+        <Button android:id="@+id/signup" style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:background="#ffff5b74"
+            android:textColor="#ffffff"
+            android:padding="10dp"
+            android:layout_weight="0.80"
+            android:text="@string/sign_up"
+            android:textStyle="bold"
+            android:layout_above="@+id/linearLayout"
+            android:layout_centerHorizontal="true" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="50dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+
+
+        >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Alumni Connect"
+    android:textSize="33dp"
+    android:typeface="serif"
+    android:textStyle="bold|italic"
+    android:textColor="#ffffff"
+    android:layout_centerHorizontal="true"
+
+    />
+    </RelativeLayout>
+</LinearLayout>

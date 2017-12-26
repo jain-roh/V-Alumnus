@@ -1,0 +1,285 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="v_alumnus.vkronus.edu.v_alumnus.AlumniUpdate">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp"
+            >
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textSize="20dp"
+                android:textColor="#ff0f0f0f"
+
+                />
+            <EditText android:id="@+id/alumnm" android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="#ff181818"
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Profession"
+                android:textSize="20dp"
+                android:textColor="#ff0f0f0f"
+
+                />
+            <EditText android:id="@+id/alumproff" android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="#ff181818"
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Designation"
+                android:textSize="20dp"
+                android:textColor="#ff0f0f0f"
+
+                />
+            <EditText android:id="@+id/alumdesg" android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="#ff181818"
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Designation Type"
+                android:textSize="20dp"
+                android:textColor="#ff0f0f0f"
+
+                />
+            <EditText android:id="@+id/alumdesgtype" android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="#ff181818"
+                />
+            <Button android:id="@+id/updtb" style="?android:textAppearanceSmall"
+            android:layout_width="160dp"
+            android:background="#000"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"
+            android:padding="5dp" android:text="Update"
+            android:textStyle="bold" />
+
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:paddingTop="15dp"
+            >
+
+            <TextView
+                android:id="@+id/ph1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Phone Number 1 : *"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:textColor="#000"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:id="@+id/alumni_ph1"
+                android:textColor="#000"
+
+
+                />
+
+
+            <TextView
+                android:id="@+id/ph2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Phone Number 2 :"
+                android:textSize="20dp"
+                android:textColor="#000"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:id="@+id/alumni_ph2"
+
+                android:textColor="#000"
+
+
+                />
+
+            <TextView
+                android:id="@+id/almeml1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Email Address 1 :* "
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:textColor="#000"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:id="@+id/alumni_eml1"
+               android:textColor="#000"
+
+
+                />
+
+
+            <TextView
+                android:id="@+id/almeml2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Email Address 2 : "
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:textColor="#000"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:id="@+id/alumni_eml2"
+
+                android:textColor="#000"
+
+                />
+
+            <TextView
+                android:id="@+id/add1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address 1 : *"
+                android:textSize="20dp"
+                android:textColor="#000"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/alumni_add1"
+                android:hint="Bldg/Road"
+                android:textColor="#000"
+
+                />
+
+
+            <TextView
+                android:id="@+id/add2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address 2 : "
+                android:textSize="20dp"
+                android:textColor="#000"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/alumni_add2"
+                android:hint="Area"
+                android:textColor="#000"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="City: *:"
+                android:textSize="20dp"
+                android:textColor="#000"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/alumni_city"
+                android:hint="City"
+                android:textColor="#000"
+
+                />
+            <TextView
+                android:id="@+id/State"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="State : *:"
+                android:textSize="20dp"
+                android:textColor="#000"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/alumni_state"
+                android:hint="Area"
+                android:textColor="#000"
+
+                />
+
+            <TextView
+                android:id="@+id/country"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Country : *:"
+                android:textSize="20dp"
+                android:textColor="#000"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/alumni_country"
+                android:hint="Country"
+                android:textColor="#000"                />
+
+            <TextView
+                android:id="@+id/postal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Postal : *:"
+                android:textSize="20dp"
+                android:textColor="#000"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/alumni_postal"
+                android:inputType="textPostalAddress"
+
+                android:textColor="#000"
+
+
+                />
+            <Button android:id="@+id/updta" style="?android:textAppearanceSmall"
+                android:layout_width="160dp"
+                android:background="#000"
+                android:textColor="#fff"
+                android:layout_height="wrap_content"
+                android:padding="5dp" android:text="Update"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</RelativeLayout>

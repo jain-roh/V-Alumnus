@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="v_alumnus.vkronus.edu.v_alumnus.Discussion">
+
+
+    <ScrollView android:id="@+id/login_form1" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="false"
+
+        android:visibility="visible"
+        >
+        <LinearLayout android:id="@+id/discussion" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:orientation="vertical"
+           >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    >
+            <Button android:id="@+id/newthread" style="?android:textAppearanceSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp" android:text="Create New Thread"
+                android:textColor="#fff"
+                android:background="#212F8E"
+                android:textStyle="bold" />
+
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="vertical"
+            >
+            <Button android:id="@+id/latestpost1" style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Latest Post"
+                android:textColor="#fff"
+                android:background="#D02D24"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ltp"
+                android:orientation="vertical"
+                >
+
+
+                </LinearLayout>
+</LinearLayout>
+        <!--<LinearLayout android:id="@+id/latest" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:orientation="horizontal"
+            android:visibility="visible"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Thread Name :"
+                android:textColor="#FFFFFF"
+                android:id="@+id/thn" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/threadname"
+                android:maxLength="250"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Thread Description :"
+                android:textColor="#FFFFFF"
+                android:id="@+id/thd" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="1500dp"
+                android:id="@+id/threadesc"
+                />
+        </LinearLayout>-->
+        </LinearLayout>
+</ScrollView>
+</RelativeLayout>
